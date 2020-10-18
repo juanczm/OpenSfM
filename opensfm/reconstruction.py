@@ -633,7 +633,7 @@ def two_view_reconstruction_general(p1, p2, camera1, camera2, threshold):
 
 def bootstrap_reconstruction(data, graph, im1, im2, p1, p2):
     """Start a reconstruction using two shots."""
-    logger.info("Starting reconstruction with {} and {}".format(im1, im2))
+    logger.info("Starting reconstruction TACLLA with {} and {}".format(im1, im2))
     report = {
         'image_pair': (im1, im2),
         'common_tracks': len(p1),
